@@ -26,17 +26,15 @@ Ansible does not need to be installed on a managed node.
    The `IBM Z System Automation Operations REST server`_ must be installed, configured and running on **at least one** z/OS system in an SA-Plex
    where the managed node runs in. Information about the IBM Z System Automation Operations REST server can be configured in the `inventory`_ ``hosts`` file
    or in the ``vars`` file, such as the host name and port number.
-   
+
    The authentication information to connect to the IBM Z System Automation Operations REST server is provided when running a playbook
    or it will be prompted during playbook run.
-   
+
    For more details about installation and configuration, refer to the `Configure and Run the System Automation Operations REST Server`_ documentation.
 
 
 .. _controllers dependencies:
-   https://ibm.github.io/z_ansible_collections_doc/requirements/requirements_controller.html   
-.. _IBM z/OS:
-   https://www.ibm.com/support/knowledgecenter/SSLTBW_2.2.0/com.ibm.zos.v2r2/en/homepage.html
+   https://ibm.github.io/z_ansible_collections_doc/requirements/requirements_controller.html
 .. _IBM Z NetView:
    https://www.ibm.com/support/knowledgecenter/en/SSZJDU_6.3.0/com.ibm.iznetview.doc_6.3.0/netv630_welcome_kc.html
 .. _IBM Z System Automation:
@@ -46,4 +44,4 @@ Ansible does not need to be installed on a managed node.
 .. _inventory:
    playbooks.html#inventory
 .. _IBM Z System Automation Operations REST server:
-   https://www.ibm.com/support/knowledgecenter/de/SSWRCJ_4.2.0/com.ibm.safos.doc_4.2/ProgrammersReference/Overview_rest_server.html   
+   https://www.ibm.com/support/knowledgecenter/de/SSWRCJ_4.2.0/com.ibm.safos.doc_4.2/ProgrammersReference/Overview_rest_server.html
