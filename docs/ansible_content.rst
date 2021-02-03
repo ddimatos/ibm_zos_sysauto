@@ -11,7 +11,7 @@ The **IBM Z® System Automation collection**, also represented as
 initiative to bring Ansible® Automation to IBM Z through the offering
 **Red Hat® Ansible® Certified Content for IBM Z**.
 
-The **IBM Z System Automation collection** provides `Ansible`_ playbooks and
+The **IBM Z System Automation collection** provides Ansible playbooks and
 roles that can create and delete `dynamic resources`_ from a template defined in
 the current active policy of an `IBM Z System Automation`_ environment.
 
