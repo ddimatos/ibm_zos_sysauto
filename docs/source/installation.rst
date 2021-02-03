@@ -23,6 +23,7 @@ You can use the `ansible-galaxy`_ command with the option ``install`` to install
 
    $ ansible-galaxy collection install ibm.ibm_zos_sysauto
 
+
 By default, the collection is installed in ``~/.ansible/collections``. The output looks like this:
 
 .. code-block:: sh
